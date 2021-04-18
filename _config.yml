@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "김정영"
   avatar           : "/assets/images/teaser.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "배울 게 많은 응애 개발자"
+  bio              : "배울 게 많은 뉴비 개발자"
   location         : "Republic of Korea"
   email            : "creepynerder@gmail.com"
   links:
@@ -294,3 +294,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      
+jekyll_admin:
+    - staticfiles
+    - datafiles
+    - configuration
